@@ -1,0 +1,226 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="color-scheme" content="dark light" />
+    <title>Portfolio | Resume</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="styles/style.css" />
+  </head>
+  <body>
+    <a class="skip-link" href="#main">Skip to content</a>
+
+    <header class="site-header" role="banner">
+      <div class="container">
+        <div class="brand">
+          <span class="brand__mark" aria-hidden="true">✿</span>
+          <a href="#" class="brand__name">Your Name</a>
+        </div>
+        <nav class="nav" aria-label="Primary">
+          <button class="nav__toggle" aria-expanded="false" aria-controls="navMenu">Menu</button>
+          <ul id="navMenu" class="nav__list" aria-expanded="false">
+            <li><a href="#about">About</a></li>
+            <li><a href="#experience">Experience</a></li>
+            <li><a href="#education">Education</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <main id="main" class="site-main" tabindex="-1">
+      <section class="hero" id="hero" aria-label="Introduction">
+        <div class="container">
+          <div class="hero__content">
+            <h1>Hi, I’m <span class="accent">Your Name</span></h1>
+            <p class="subtitle">Your Role · Your Location</p>
+            <p class="summary">Brief one-liner about what you do and what you care about. This site doubles as my resume and a curated selection of my projects.</p>
+            <div class="hero__cta">
+              <a class="btn primary" href="#projects">View Projects</a>
+              <a class="btn" href="#contact">Contact Me</a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="about" class="section about">
+        <div class="container">
+          <h2>About</h2>
+          <p>Write a short bio here. Mention your core skills, interests, and what kind of opportunities you are looking for.</p>
+        </div>
+      </section>
+
+      <section id="experience" class="section experience">
+        <div class="container">
+          <h2>Experience</h2>
+          <ul class="timeline" id="experience-list">
+                        <li class="timeline__item">
+              <div class="timeline__meta">
+                <h3>Job Title · Company</h3>
+                <p class="muted">2022 — Present · Location</p>
+              </div>
+              <div class="timeline__body">
+                <ul>
+                  <li>Key achievement or responsibility.</li>
+                  <li>Another relevant bullet that highlights impact.</li>
+                </ul>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </section>
+
+      <section id="education" class="section education">
+        <div class="container">
+          <div class="section__header">
+            <h2>Education</h2>
+            <p class="muted">This list expands as you add more entries.</p>
+          </div>
+          <ul class="cards" id="education-list">
+            <li class="card">
+              <h3 class="card__title">B.Sc. in Computer Science</h3>
+              <div class="card__meta">Your University · 2018 — 2022</div>
+              <div class="muted">GPA: 3.8/4.0</div>
+            </li>
+            <li class="card">
+              <h3 class="card__title">Front-End Nanodegree</h3>
+              <div class="card__meta">Udacity · 2023</div>
+              <div class="muted">Scholarship recipient</div>
+            </li>
+            <li class="card">
+              <h3 class="card__title">Advanced Algorithms</h3>
+              <div class="card__meta">Coursera / Stanford Online · 2024</div>
+              <div class="muted">Certificate of completion</div>
+            </li>
+            <li class="card">
+              <h3 class="card__title">M.Sc. in Artificial Intelligence</h3>
+              <div class="card__meta">Fictional Tech University · 2025 — 2027</div>
+              <div class="muted">Thesis: Few-shot Learning for Robotics</div>
+            </li>
+            <li class="card">
+              <h3 class="card__title">UX Design Bootcamp</h3>
+              <div class="card__meta">Design Guild · 2023</div>
+              <div class="muted">Capstone: Redesigning a travel booking flow</div>
+            </li>
+          </ul>
+                  </div>
+      </section>
+
+      <section id="skills" class="section skills">
+        <div class="container">
+          <h2>Skills</h2>
+          <ul class="chipset">
+            <li class="chip">JavaScript</li>
+            <li class="chip">HTML</li>
+            <li class="chip">CSS</li>
+            <li class="chip">React</li>
+            <li class="chip">Node.js</li>
+            <li class="chip">Design Systems</li>
+          </ul>
+        </div>
+      </section>
+
+      <section id="projects" class="section projects">
+        <div class="container">
+          <div class="section__header">
+            <h2>Projects</h2>
+            <p class="muted">Edit or add project cards directly in the HTML below.</p>
+          </div>
+          <div class="grid" id="projects-grid">
+            <article class="card">
+              <h3 class="card__title">Project One</h3>
+              <p>Concise description of what this project does and why it matters.</p>
+              <div class="card__tags">
+                <span class="chip">JavaScript</span>
+                <span class="chip">CSS</span>
+                <span class="chip">HTML</span>
+              </div>
+              <div><a class="link" href="#" target="_blank" rel="noopener">View</a></div>
+            </article>
+            <article class="card">
+              <h3 class="card__title">Data Visualizer</h3>
+              <p>Interactive charts built with D3.js showing complex datasets.</p>
+              <div class="card__tags">
+                <span class="chip">D3.js</span>
+                <span class="chip">DataViz</span>
+              </div>
+              <div><a class="link" href="#" target="_blank" rel="noopener">View</a></div>
+            </article>
+            <article class="card">
+              <h3 class="card__title">API Service</h3>
+              <p>A RESTful API with authentication and rate limiting.</p>
+              <div class="card__tags">
+                <span class="chip">Node.js</span>
+                <span class="chip">Express</span>
+                <span class="chip">JWT</span>
+              </div>
+              <div><a class="link" href="#" target="_blank" rel="noopener">View</a></div>
+            </article>
+            <article class="card">
+              <h3 class="card__title">Mobile UI Kit</h3>
+              <p>Reusable components following a design system.</p>
+              <div class="card__tags">
+                <span class="chip">Design Systems</span>
+                <span class="chip">Figma</span>
+              </div>
+              <div><a class="link" href="#" target="_blank" rel="noopener">View</a></div>
+            </article>
+            <article class="card">
+              <h3 class="card__title">Portfolio Template</h3>
+              <p>A responsive, accessible template with dark theme and red flower accents.</p>
+              <div class="card__tags">
+                <span class="chip">Accessibility</span>
+                <span class="chip">CSS Grid</span>
+              </div>
+              <div><a class="link" href="#" target="_blank" rel="noopener">View</a></div>
+            </article>
+            <article class="card">
+              <h3 class="card__title">CLI Tool</h3>
+              <p>Improves developer productivity with automation.</p>
+              <div class="card__tags">
+                <span class="chip">Node.js</span>
+              </div>
+              <div><a class="link" href="#" target="_blank" rel="noopener">View</a></div>
+            </article>
+            <article class="card">
+              <h3 class="card__title">Extra Project</h3>
+              <p>More projects can be added here over time.</p>
+              <div class="card__tags">
+                <span class="chip">Various</span>
+              </div>
+              <div><a class="link" href="#" target="_blank" rel="noopener">View</a></div>
+            </article>
+          </div>
+                  </div>
+      </section>
+
+      <section id="contact" class="section contact">
+        <div class="container">
+          <h2>Contact</h2>
+          <p class="muted">I’m open to roles and collaborations. Let’s talk.</p>
+          <ul class="contact-list">
+            <li><a href="mailto:you@example.com" class="link">you@example.com</a></li>
+            <li><a href="https://www.linkedin.com/" target="_blank" rel="noopener" class="link">LinkedIn</a></li>
+            <li><a href="https://github.com/" target="_blank" rel="noopener" class="link">GitHub</a></li>
+          </ul>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container">
+        <p class="muted">© <span id="year"></span> Your Name</p>
+      </div>
+    </footer>
+
+    <noscript>
+      <div class="noscript container">JavaScript is optional. It powers the mobile menu and updates the year automatically.</div>
+    </noscript>
+
+    <script src="scripts/script.js" defer></script>
+  </body>
+</html>
