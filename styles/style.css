@@ -5,8 +5,8 @@
   --surface-2: #1b1e24;
   --text: #e6e7ea;
   --muted: #a9acb3;
-  --accent: #ff6464;
-  --accent-2: #ff8484;
+  --accent: #fc2424;
+  --accent-2: #fc4848;
   --border: #2a2f38;
   --chip: #22252d;
   --warning: #f1c40f;
@@ -103,7 +103,7 @@ img { max-width: 100%; display: block; }
 .timeline__meta .muted { color: var(--muted); margin: 0 0 .5rem; }
 
 /* Cards / Grid */
-.cards, .grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(260px, 1fr)); gap: 1rem; }
+.cards, .grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(320px, 1fr)); gap: 1rem; }
 .cards { list-style: none; margin: 0; padding: 0; }
 .card { background: var(--surface); border: 1px solid var(--border); border-radius: .9rem; padding: 1rem; box-shadow: var(--shadow); display: flex; flex-direction: column; gap: .5rem; }
 .card .card__title { margin: 0; font-weight: 600; }
