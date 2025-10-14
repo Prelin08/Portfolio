@@ -115,7 +115,7 @@ img { max-width: 100%; display: block; }
 .chip { background: var(--chip); color: var(--text); border: 1px solid var(--border); padding: .35rem .6rem; border-radius: 999px; font-size: .9rem; }
 
 /* Contact */
-.contact-list { list-style: none; margin: 0; padding: 0; display: flex; flex-wrap: wrap; gap: .75rem; }
+.contact-list { list-style: none; margin: 0; padding: 0; gap: .75rem; }
 .link { color: var(--accent-2); text-decoration: none; }
 .link:hover { text-decoration: underline; }
 
